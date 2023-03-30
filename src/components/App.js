@@ -14,11 +14,11 @@ const sum = input1+input2;
 
   return (
     <div id="main">
-      <input id="#input1" onChange={handleChangeA}/>
+      <input id="input1" onChange={handleChangeA}/>
        +
-      <input id="#input2" onChange={handleChangeB}/> 
+      <input id="input2" onChange={handleChangeB}/> 
       
-      <p id="#result" >{sum}</p>
+      <p id="result" >{sum ? sum : 0}</p>
     </div>
   )
 }
